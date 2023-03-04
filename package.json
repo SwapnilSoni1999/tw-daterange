@@ -23,6 +23,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "homepage": "https://github.com/SwapnilSoni1999/tw-daterange",
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
