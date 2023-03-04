@@ -2,6 +2,8 @@
 
 A DateRange picker made with tailwind and date-fns
 
+![tw-daterange](https://raw.githubusercontent.com/SwapnilSoni1999/tw-daterange/main/screenshot.png)
+
 <hr />
 
 ## How to install
