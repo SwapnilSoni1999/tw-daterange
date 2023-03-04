@@ -1,6 +1,5 @@
 {
   "name": "tw-daterange",
-  "private": true,
   "version": "1.0.0",
   "main": "./dist/DateRangePicker.umd.js",
   "module": "./dist/DateRangePicker.es.js",
