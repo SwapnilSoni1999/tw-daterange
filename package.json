@@ -1,0 +1,43 @@
+{
+  "name": "tw-daterange",
+  "private": true,
+  "version": "1.0.0",
+  "main": "./dist/DateRangePicker.umd.js",
+  "module": "./dist/DateRangePicker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/DateRangePicker.es.js",
+      "require": "./dist/DateRangePicker.umd.js"
+    }
+  },
+  "description": "A date range picker component for React built using tailwind and date-fns",
+  "author": {
+    "name": "Swapnil Soni"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "date-fns": "^2.29.3",
+    "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
