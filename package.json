@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "./dist/DateRangePicker.umd.js",
   "module": "./dist/DateRangePicker.es.js",
+  "license": "MIT",
   "exports": {
     ".": {
       "import": "./dist/DateRangePicker.es.js",
