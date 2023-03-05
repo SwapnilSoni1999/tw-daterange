@@ -1,5 +1,7 @@
 import { FC, useEffect, useState } from "react"
 import * as dateFns from "date-fns"
+import "./index.css"
+
 interface DateRange {
   startDate: Date | null
   endDate: Date | null
