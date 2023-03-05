@@ -8,7 +8,7 @@ src
 postcss.config.cjs
 screenshot.png
 tailwind.config.cjs
-tscconfig.json
+tsconfig.json
 tsconfig.node.json
 vite.config.ts
 yarn.lock
