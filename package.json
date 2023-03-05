@@ -18,8 +18,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "npm run clean && tsc && vite build",
+    "preview": "vite preview",
+    "clean": "git clean -Xfd -e \"!node_modules\" -e \"!node_modules/**\""
   },
   "publishConfig": {
     "access": "public"

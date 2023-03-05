@@ -22,6 +22,19 @@ using yarn
 yarn add tw-daterange
 ```
 
+3. Add the configuration to your _tailwind.config.js_
+
+```js
+module.exports = {
+  // ...
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/tw-daterange/dist/index.esm.js",
+  ],
+  // ...
+}
+```
+
 <hr />
 
 ## How to use
