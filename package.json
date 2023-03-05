@@ -21,7 +21,7 @@
     "build": "npm run clean && tsc && vite build",
     "preview": "vite preview",
     "clean": "git clean -Xfd -e \"!node_modules\" -e \"!node_modules/**\"",
-    "prepare": "npm run build && npm version patch -m \"Bump version to %s\""
+    "prepare": "npm run build && npm version patch -m \"Bump version to %s\" && npm publish"
   },
   "publishConfig": {
     "access": "public"
