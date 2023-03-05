@@ -4,6 +4,7 @@
   "main": "./dist/DateRangePicker.umd.js",
   "module": "./dist/DateRangePicker.es.js",
   "license": "MIT",
+  "types": "./types/DateRangePicker.d.ts",
   "exports": {
     ".": {
       "import": "./dist/DateRangePicker.es.js",
