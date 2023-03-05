@@ -1,6 +1,6 @@
 {
   "name": "tw-daterange",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./dist/DateRangePicker.umd.js",
   "module": "./dist/DateRangePicker.es.js",
   "license": "MIT",
