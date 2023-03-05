@@ -22,19 +22,7 @@
     "preview": "vite preview"
   },
   "publishConfig": {
-    "access": "public",
-    "ignore": [
-      "!dist",
-      "!types",
-      "src",
-      "postcss.config.js",
-      "tailwind.config.js",
-      "tsconfig.json",
-      "tsconfig.node.json",
-      "vite.config.js",
-      "yarn.lock",
-      "screenshot.png"
-    ]
+    "access": "public"
   },
   "homepage": "https://github.com/SwapnilSoni1999/tw-daterange",
   "peerDependencies": {

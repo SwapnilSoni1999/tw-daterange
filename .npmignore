@@ -1,0 +1,14 @@
+
+!dist
+!types
+!package.json
+!README.md
+!LICENSE
+src
+postcss.config.cjs
+screenshot.png
+tailwind.config.cjs
+tscconfig.json
+tsconfig.node.json
+vite.config.ts
+yarn.lock
