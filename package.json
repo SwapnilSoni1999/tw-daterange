@@ -1,6 +1,6 @@
 {
   "name": "tw-daterange",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "main": "./dist/DateRangePicker.umd.js",
   "module": "./dist/DateRangePicker.es.js",
   "license": "MIT",
@@ -29,7 +29,7 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "date-fns": ">=2.29.3"
+    "date-fns": ">=2.29.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
