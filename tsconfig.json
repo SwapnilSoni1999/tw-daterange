@@ -15,6 +15,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "declaration": true,
+    "emitDeclarationOnly": true,
     "declarationDir": "./types"
   },
   "include": ["src"],
