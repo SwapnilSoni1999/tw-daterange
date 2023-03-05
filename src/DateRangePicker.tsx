@@ -52,12 +52,9 @@ const DateRangePicker: FC<Props> = ({ initialRange, onUpdate }) => {
     month: number
     year: number
   }) => {
-    console.log({ month, year })
     const startOfMonth = dateFns.startOfMonth(new Date(year, month))
-    console.log({ startOfMonth })
     const endOfMonth = dateFns.endOfMonth(new Date(year, month))
     const startDay = startOfMonth.getDay()
-    const endDay = endOfMonth.getDay()
     const daysInMonth = dateFns.getDaysInMonth(startOfMonth)
     const days = [...Array(daysInMonth).keys()].map((v) => v + 1)
     const calendar = [...Array(42).keys()].map((v) => {
@@ -73,7 +70,6 @@ const DateRangePicker: FC<Props> = ({ initialRange, onUpdate }) => {
   }
 
   useEffect(() => {
-    console.log(dateRange)
     const _currCalendar = generateCalendar({
       month: new Date(currYear, currMonth).getMonth(),
       year: new Date(currYear, currMonth).getFullYear(),
