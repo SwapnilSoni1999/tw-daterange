@@ -1,3 +1,4 @@
+'use client'
 import { FC, useEffect, useState } from "react"
 import * as dateFns from "date-fns"
 import "tailwindcss/tailwind.css"
